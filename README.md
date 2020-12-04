@@ -1,3 +1,4 @@
 # Paulo Victor Menezes
 ## Sobre mim
-Um simples currículo, e falando um pouco sobre mim
+- Um simples currículo
+- Falando um pouco sobre mim
