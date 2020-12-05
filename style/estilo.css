@@ -11,7 +11,7 @@
 .container{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
 }
 
 /* Menu de Navegação */
@@ -34,8 +34,8 @@
     text-decoration: underline white;
 }
 .profile{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     margin-left: 5px;
 }
 .profile img{
@@ -47,40 +47,54 @@
 
 /* Conteudo */
 .conteudo{
-    border: 1px solid black;
     width: 100%;
     height: 100%;
-    margin-top: 120px;
-    box-shadow: 1px 1px gray;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .conteudo article{
-    margin: 5px 10px;
+    margin: 15px 10px;
+    padding-bottom: 5px;
     background-color: #f8f8ff;
     box-shadow: 1px 1px 2px black;
     text-align: justify;
+    width: 90%;
 }
 .conteudo article h1{
     color: #751001;
+    font-size: 23.5px;
+    margin: 3px;
+}
+.conteudo article h2{
+    color: #751001;
+    margin: 10px 3px;
 }
 .conteudo article p{
     color: black;
     font-size: 18px;
+    margin: 2px 10px;
 }
+.conteudo article li{
+    color: black;
+    font-size: 18px;
+    margin: 2px 10px;
+    list-style: none;
+}
+
+/* Redes e Email */
+.sociais{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 8px;
+}
+#contato i{
+    color: #751001;
+}
+#contato a{
+    color: black;
+}
+/* Fim Redes e Email */
 
 /* Fim Conteudo */
-
-/* Rodapé */
-.rodape{
-    background-color: #751001;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 80px;
-}
-.rodape a{
-    margin: 15px;
-}
-.rodape a:hover{
-    text-decoration: underline white;
-}
